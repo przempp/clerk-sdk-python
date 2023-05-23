@@ -68,6 +68,7 @@ class User(BaseModel):
     external_accounts: List[Any]
     metadata: Any
     private_metadata: Any
+    primaryWeb3WalletId: Optional[str] = None
     created_at: int
     updated_at: int
 
